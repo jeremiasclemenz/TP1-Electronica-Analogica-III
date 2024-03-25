@@ -1,0 +1,55 @@
+% Documento principal del informe
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{amsmath}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{subcaption}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{mathtools}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\usepackage{lipsum} % Generar texto de muestra (puedes eliminarlo después)
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor} % Paquete para manejar colores
+
+
+\addbibresource{bibliografia.bib} %archivo de bibliografia
+
+\begin{document}
+
+\renewcommand{\figureautorefname}{Fig.}
+\renewcommand{\tableautorefname}{Tab.}
+\renewcommand{\equationautorefname}{Ec.}
+
+\input{titlepage}
+\newpage
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+\newpage
+
+\input{introduccion.tex}
+
+\newpage
+\input{marco_teorico.tex}
+
+\newpage
+\input{desarrollo.tex}
+
+\newpage
+\input{mediciones.tex}
+
+\newpage
+\printbibliography
+\end{document}
