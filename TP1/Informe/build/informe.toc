@@ -8,10 +8,10 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Calculo del capacitor}{10}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Simulacion}{11}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{12}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Mediciones}{13}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Medicion de $f_o$}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Medicion de $BW$}{15}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Medicion de $R_p$}{15}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Medicion de $Z_{in}$}{16}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Medicion de $Z_{out}$}{16}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Conclusiones}{17}{section.5}%
+\contentsline {subsection}{\numberline {3.5}Mediciones}{13}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{13}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Medicion de $BW$}{15}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Medicion de $R_p$}{15}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Medicion de $Z_{in}$}{16}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Medicion de $Z_{out}$}{16}{subsubsection.3.5.5}%
+\contentsline {section}{\numberline {4}Conclusiones}{17}{section.4}%

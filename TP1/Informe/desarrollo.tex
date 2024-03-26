@@ -18,14 +18,21 @@ El primer paso para construir el circuito resontate es realizar los calculos del
 
 % L = D^3 * Ns^2 k 10^-3 [micro H]
 \begin{equation}
-    L = D^3 \cdot N_s^2 \cdot k \cdot 10^{-3} [\mu H]
+    L = D^3 \cdot N_s^2 \cdot k \cdot 10^{-3}\; [\mu F]
 \end{equation}
 
-Donde $D$ es el diametro externo del inductor, $N_s$ es el numero de espiras por unidad de longitud y $k$ es la constante de Nagaoka. 
-Para comenzar fijaremos valores que nos permitan ajustar a los calculos. Por lo tanto, se fija:
+Donde:
 
 \begin{itemize}
-    \item $D =  2.21 cm$
+    \item $D$ es el diametro externo del inductor
+    \item $N_s$ es el numero de espiras por unidad de longitud
+    \item $k$ es la constante de Nagaoka
+\end{itemize}
+
+Para comenzar fijaremos parametros que podamos ajustarlos o determinarlos. Elegimos los siguientes valores:
+
+\begin{itemize}
+    \item $D =  2.21\; \text{cm}$
     \item diametro del conductor: $d = 2.1\; \text{mm}$
     \item separacion entre espiras: : $S = 3\; \text{mm}$
 \end{itemize}
@@ -90,7 +97,9 @@ La otra forma es graficamente, donde con L/D = 1.72 ingresamos al siguiente graf
     \caption{Curva de Nagaoka K}
 \end{figure}
 
-Con todos estos parametros calculadores, podemos calcular el valor de la inductancia:
+Donde obtendremos un valor aproximado de forma grafica.
+
+Con todos estos parametros calculados, podemos calcular el valor de la inductancia:
 
 \begin{equation}
     L = D^3 \cdot N_s^2 \cdot k \cdot 10^{-3} = 2.21^3 \cdot 2^2 \cdot 13.5 \cdot 10^{-3} = 0.56\; \mu H
@@ -104,7 +113,15 @@ Para el calculo de las resistencias necesitaremos calcular el factor de calidad 
     Q_d = 8850 \cdot \frac{D \cdot L}{102 \cdot L + 45 \cdot D} \cdot \sqrt{f_0}
 \end{equation}
 
-Donde $L$ es la longitud del inductor en cm, $D$ es el diametro del inductor en cm y $f_0$ es la frecuencia de resonancia en MHz. Sustituyendo los valores obtenemos:
+Donde:
+
+\begin{itemize}
+    \item $L$ es la longitud del inductor en cm
+    \item $D$ es el diametro del inductor en cm
+    \item $f_0$ es la frecuencia de resonancia en MHz
+\end{itemize}
+
+Sustituyendo los valores obtenemos:
 
 \begin{equation}
     Q_d = 610.4 
@@ -166,7 +183,7 @@ Con la frecuencia de resonancia $f_0 = 16 MHz$ y el valor de la inductancia calc
     C = \frac{1}{L \cdot (2 \cdot \pi \cdot f_0)^2} = \frac{1}{0.56 \cdot (2 \cdot \pi \cdot 16 \cdot 10^6)^2} = 177\; \text{pF}
 \end{equation}
 
-Con las ecuaciones de la formula 13, podemos calcular $C_1$, $C_2$, $C_3$ y $C_4$:
+Con las ecuaciones del sistema de ecuaciones 13, podemos calcular $C_1$, $C_2$, $C_3$ y $C_4$:
 
 \begin{equation}
     C_2 = \frac{C}{2} \cdot \sqrt{\frac{R_g'}{R_g}}
@@ -218,7 +235,7 @@ Para comprobar el correcto funcionamiento de nuestro circuito, se realizo una si
     \caption{Circuito simulado en LTSpice}
 \end{figure}
 
-El resultado de la simulacion es el siguiente:
+La respuesta en frecuencia obtenida del circuito simulada es la siguiente:
 
 \begin{figure}[h]
     \centering
@@ -282,3 +299,189 @@ El inductor y los capacitores montados en la PCB finalmente nos queda:
     \caption{PCB montada}
 \end{figure}
 
+
+\subsection{Mediciones}
+
+\subsubsection{Medicion de $f_o$}
+
+Para la medicion de la frecuencia de resonancia, se conecta el circuito a tope. El esquema es el siguiente:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Imagenes/medicion_fo.png}
+    \caption{Medicion de $f_o$}
+    \label{fig: de la frecuencia de resonancia $f_o$}
+\end{figure}
+
+
+La resistencia Rtest tiene que ser del orden de  $R_p$, por lo tanto, inicialmente se utilizó una resistencia de 1 k$\Omega$. Una vez realizada la conexión, se varía la frecuencia del generador 
+de señales de menor a mayor hasta encontrar la frecuencia de resonancia. Debemos considerar que el osciloscopio tiene una capacidad de entrada, por lo tanto, esta capacidad parásita puede 
+afectar la medición de la frecuencia de resonancia.
+
+La medicion $f_o1$:
+
+\begin{equation}
+    f_{o1} = 12 MHz 
+\end{equation}
+
+A continuacion mediremos la frecuencia de resonancia $f_{o2}$, para esto se utilizara una resistencia de 1k$\Omega$ y ademas, se agrega el capacitor $C_F$ en paralelo al inductor y los capacitores.
+El esquema es el siguiente:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Imagenes/medicion_fo2.png}
+    \caption{Medicion de $f_o2$}
+    \label{fig: de la frecuencia de resonancia $f_(o2)$}
+\end{figure}
+
+La medicion $f_{o2}$:
+
+\begin{equation}
+    f_o2 = 10.5 MHz
+\end{equation}
+
+Para obtener la frecuencia de resonancia $f_o$ se debe obtener $C_o$ apartir de estas ecuaciones:
+
+\begin{equation}
+    f_o1 = \frac{1}{2\pi\sqrt{L(C_T + C_o)}}
+\end{equation}
+
+\begin{equation}
+    f_o2 = \frac{1}{2\pi\sqrt{L(C_T + C_o + C_F)}}
+\end{equation}
+
+Donde $C_T$ es igual 177 pF. Despejando $C_o$ de estas ecuaciones obtenemos:
+
+\begin{equation}
+    (\frac{f_o1}{f_o2})^2 = \frac{C_T + C_o + C_F}{C_T + C_o}
+\end{equation}
+
+\begin{equation}
+    C_o = \frac{C_T \cdot (f_o2^2 - f_o1^2) + C_F f_o2^2}{f_o1^2 - f_o2^2}
+\end{equation}
+
+El capacitor $C_F$ es de 100pF y $C_o$ es de:
+
+\begin{equation}
+    C_o = 149,7 pF
+\end{equation}
+
+Con este valor, nos damos cuenta de que la capacidad agregada del osciloscopio, cables BNC, soldaduras, etc., es comparable a la del 
+circuito, por lo tanto, modificará la medición y afectará el resultado. Ahora determinaremos el valor de la inductancia $L$:
+
+\begin{equation}
+    L = \frac{1}{(2\pi f_o1)^2} \cdot \frac{1}{C_T + C_o} = 0.538\; \mu H
+\end{equation}
+
+Con este valor determinamos el valor de la frecuencia de resonancia $f_o$:
+
+\begin{equation}
+    f_o = \frac{1}{2\pi\sqrt{L \cdot C_T}} = 16.3 MHz
+\end{equation}
+
+\subsubsection{Medicion de $BW$}
+
+Para la medicion del ancho de banda, se utiliza el esquema de la figura \ref{fig: de la medicion del ancho de banda}:
+
+% Colocar imagen abajo del texto de arriba
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Imagenes/medicion_bw.png}
+    \caption{Medicion de $BW$}
+    \label{fig: de la medicion del ancho de banda}
+\end{figure}
+
+La medicion del ancho de banda variaremos la frecuencia hasta encontrar el pico maximo de amplitud en la salida, una vez encontrado
+el pico maximo, buscaremos -3 dB de la amplitud maxima. La diferencia entre la frecuencia de corte superior y la inferior nos dara el ancho de banda. 
+Las mediciones son las siguientes:
+
+% tabla con 3 columnas y 4 filas, frecuencia de corte inferior central y corte superior. Amplitud y frecuencia
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0} 
+    \textbf{Medicion} & \textbf{Amplitud} & \textbf{Ancho de banda} \\ \hline
+    Frecuencia de corte inferior            & 2.87 V             & 12.2 MHz                \\ \hline
+    Frecuencia central         & 4.06 V             & 12.6 MHz                \\ \hline
+    Frecuencia de corte superior            & 2.87 V             & 13 MHz                \\ \hline
+    \end{tabular}
+\end{table}
+
+El ancho de banda es:
+
+\begin{equation}
+    BW = 13 - 12.2 = 0.8 MHz
+\end{equation}
+
+\subsubsection{Medicion de $R_p$}
+
+Para la medicion de la resistencia de perdida, se utiliza el esquema de la figura \ref{fig: de la medicion de la resistencia de perdida}:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/medicion_rp.png}
+    \caption{Medicion de $R_p$}
+    \label{fig: de la medicion de la resistencia de perdida}
+\end{figure}
+
+Tenemos que colocar la frecuencia del generador de onda en la frecuencia de resonancia $f_o$, ya que la reactancia inductiva y capacitiva se anulan.
+Por lo tanto nos quedara la resistencia de test $R_{test} = 1k\Omega$ en serie con la resistencia de perdida $R_p$. Por lo tanto realizando el divisor resistivo:
+
+\begin{equation}
+    V_{osciloscopio} = V_{B1} \cdot \frac{R_p}{R_p + R_{test}}
+\end{equation}
+
+Y despejando $R_p$ obtenemos:
+
+\begin{equation}
+    R_p = \frac{R_{test} \cdot V_{osciloscopio}}{V_{B1} - V_{osciloscopio}}
+\end{equation}
+
+Las mediciones son las siguientes:
+% Hacer itemize con las mediciones
+\begin{itemize}
+    \item $V_{osciloscopio} = 2 V$
+    \item $V_{B1} = 1.76 V$
+    \item $R_p = 7.3 k\Omega$
+\end{itemize}
+
+\subsubsection{Medicion de $Z_{in}$}
+
+Para la medicion de la impedancia de entrada, se utiliza el esquema de la figura \ref{fig: de la medicion de la impedancia de entrada}
+y la \ref{fig: de la medicion de la impedancia de entrada 2}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zin1.png}
+    \caption{Medicion de $V_g$}
+    \label{fig: de la medicion de la impedancia de entrada}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zin2.png}
+    \caption{Medicion de $Z_{in}$}
+    \label{fig: de la medicion de la impedancia de entrada 2}
+\end{figure}
+
+
+\subsubsection{Medicion de $Z_{out}$}
+
+Para la medicion de la impedancia de salida, se utiliza el esquema de la figura \ref{fig: de la medicion de la impedancia de salida}:
+
+%
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zout1.png}
+    \caption{Medicion de $Z_{out}$}
+    \label{fig: Primer esquema de la medicion de la impedancia de salida}
+\end{figure}
+
+% 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zout2.png}
+    \caption{Medicion de $Z_{out}$}
+    \label{fig: Segundo esquema de la medicion de la impedancia de salida}
+\end{figure}

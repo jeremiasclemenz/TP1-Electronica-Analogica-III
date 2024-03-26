@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.25)  25 MAR 2024 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.25)  26 MAR 2024 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,101 +804,108 @@ LaTeX Info: Redefining \% on input line 1.
 \openout7 = `informe.lot'.
 
  [3] (introduccion.tex) [4] (marco_teorico.tex
-<Imagenes/circuito_resonante.png, id=156, 885.3075pt x 356.0803pt>
+<Imagenes/circuito_resonante.png, id=158, 885.3075pt x 356.0803pt>
 File: Imagenes/circuito_resonante.png Graphic file (type png)
 <use Imagenes/circuito_resonante.png>
 Package pdftex.def Info: Imagenes/circuito_resonante.png  used on input line 9.
 (pdftex.def)             Requested size: 226.48395pt x 91.08995pt.
-<Imagenes/circuito_acoplamiento2.png, id=158, 688.82344pt x 429.85594pt>
+<Imagenes/circuito_acoplamiento2.png, id=160, 688.82344pt x 429.85594pt>
 File: Imagenes/circuito_acoplamiento2.png Graphic file (type png)
 <use Imagenes/circuito_acoplamiento2.png>
-Package pdftex.def Info: Imagenes/circuito_acoplamiento2.png  used on input line 42.
+Package pdftex.def Info: Imagenes/circuito_acoplamiento2.png  used on input line 53.
 (pdftex.def)             Requested size: 226.48395pt x 141.33473pt.
-<Imagenes/Esquema_autotrafo.png, id=159, 221.82875pt x 252.945pt>
-File: Imagenes/Esquema_autotrafo.png Graphic file (type png)
-<use Imagenes/Esquema_autotrafo.png>
-Package pdftex.def Info: Imagenes/Esquema_autotrafo.png  used on input line 56.
-(pdftex.def)             Requested size: 135.89174pt x 154.95236pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/relacion_transformacion.png, id=160, 220.825pt x 252.945pt>
+<Imagenes/Esquema_autotrafo.png, id=161, 221.82875pt x 252.945pt>
+File: Imagenes/Esquema_autotrafo.png Graphic file (type png)
+<use Imagenes/Esquema_autotrafo.png>
+Package pdftex.def Info: Imagenes/Esquema_autotrafo.png  used on input line 67.
+(pdftex.def)             Requested size: 135.89174pt x 154.95236pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagenes/relacion_transformacion.png, id=162, 220.825pt x 252.945pt>
 File: Imagenes/relacion_transformacion.png Graphic file (type png)
 <use Imagenes/relacion_transformacion.png>
-Package pdftex.def Info: Imagenes/relacion_transformacion.png  used on input line 65.
+Package pdftex.def Info: Imagenes/relacion_transformacion.png  used on input line 76.
 (pdftex.def)             Requested size: 135.89174pt x 155.66252pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./Imagenes/circuito_resonante.png> <./Imagenes/circuito_acoplamiento2.png>] [6 <./Imagenes/Esquema_autotrafo.png> <./Imagenes/relacion_transformacion.png>]
-<Imagenes/circuito_reflejado.png, id=183, 355.3275pt x 263.48438pt>
+[5 <./Imagenes/circuito_resonante.png>]
+<Imagenes/circuito_reflejado.png, id=177, 355.3275pt x 263.48438pt>
 File: Imagenes/circuito_reflejado.png Graphic file (type png)
 <use Imagenes/circuito_reflejado.png>
-Package pdftex.def Info: Imagenes/circuito_reflejado.png  used on input line 80.
+Package pdftex.def Info: Imagenes/circuito_reflejado.png  used on input line 91.
 (pdftex.def)             Requested size: 226.48395pt x 167.94995pt.
-) [7 <./Imagenes/circuito_reflejado.png>] (desarrollo.tex [8]
-<Imagenes/factorNagaoka.png, id=208, 453.19313pt x 347.04657pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./Imagenes/circuito_acoplamiento2.png> <./Imagenes/Esquema_autotrafo.png>]) [7 <./Imagenes/relacion_transformacion.png> <./Imagenes/circuito_reflejado.png>] (desarrollo.tex [8]
+<Imagenes/factorNagaoka.png, id=209, 453.19313pt x 347.04657pt>
 File: Imagenes/factorNagaoka.png Graphic file (type png)
 <use Imagenes/factorNagaoka.png>
-Package pdftex.def Info: Imagenes/factorNagaoka.png  used on input line 89.
+Package pdftex.def Info: Imagenes/factorNagaoka.png  used on input line 96.
 (pdftex.def)             Requested size: 226.48395pt x 173.43813pt.
  [9 <./Imagenes/factorNagaoka.png>] [10]
-<Imagenes/circuito.png, id=240, 574.39594pt x 283.81032pt>
+<Imagenes/circuito.png, id=242, 574.39594pt x 283.81032pt>
 File: Imagenes/circuito.png Graphic file (type png)
 <use Imagenes/circuito.png>
-Package pdftex.def Info: Imagenes/circuito.png  used on input line 217.
+Package pdftex.def Info: Imagenes/circuito.png  used on input line 234.
 (pdftex.def)             Requested size: 317.07614pt x 156.67212pt.
-<Imagenes/resultado_circuito.png, id=241, 587.94656pt x 277.035pt>
+<Imagenes/resultado_circuito.png, id=243, 587.94656pt x 277.035pt>
 File: Imagenes/resultado_circuito.png Graphic file (type png)
 <use Imagenes/resultado_circuito.png>
-Package pdftex.def Info: Imagenes/resultado_circuito.png  used on input line 225.
+Package pdftex.def Info: Imagenes/resultado_circuito.png  used on input line 242.
 (pdftex.def)             Requested size: 317.07614pt x 149.4022pt.
  [11 <./Imagenes/circuito.png> <./Imagenes/resultado_circuito.png>]
-<Imagenes/montecarlo.png, id=248, 773.89125pt x 316.18124pt>
+<Imagenes/montecarlo.png, id=250, 773.89125pt x 316.18124pt>
 File: Imagenes/montecarlo.png Graphic file (type png)
 <use Imagenes/montecarlo.png>
-Package pdftex.def Info: Imagenes/montecarlo.png  used on input line 264.
+Package pdftex.def Info: Imagenes/montecarlo.png  used on input line 281.
 (pdftex.def)             Requested size: 317.07614pt x 129.54347pt.
-<Imagenes/pcb1.jpeg, id=249, 1606.0pt x 1204.5pt>
+<Imagenes/pcb1.jpeg, id=251, 1606.0pt x 1204.5pt>
 File: Imagenes/pcb1.jpeg Graphic file (type jpg)
 <use Imagenes/pcb1.jpeg>
-Package pdftex.def Info: Imagenes/pcb1.jpeg  used on input line 275.
+Package pdftex.def Info: Imagenes/pcb1.jpeg  used on input line 292.
 (pdftex.def)             Requested size: 317.07614pt x 237.80803pt.
-<Imagenes/pcb2.jpeg, id=250, 1204.5pt x 1606.0pt>
+<Imagenes/pcb2.jpeg, id=252, 1204.5pt x 1606.0pt>
 File: Imagenes/pcb2.jpeg Graphic file (type jpg)
 <use Imagenes/pcb2.jpeg>
-Package pdftex.def Info: Imagenes/pcb2.jpeg  used on input line 281.
+Package pdftex.def Info: Imagenes/pcb2.jpeg  used on input line 298.
 (pdftex.def)             Requested size: 317.07614pt x 422.76984pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [12 <./Imagenes/montecarlo.png> <./Imagenes/pcb1.jpeg>] (mediciones.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 4.
+(hyperref)                removing `math shift' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
+(hyperref)                removing `subscript' on input line 305.
 
-<Imagenes/medicion_fo.png, id=259, 587.94656pt x 367.3725pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 305.
+
+<Imagenes/medicion_fo.png, id=253, 587.94656pt x 367.3725pt>
 File: Imagenes/medicion_fo.png Graphic file (type png)
 <use Imagenes/medicion_fo.png>
-Package pdftex.def Info: Imagenes/medicion_fo.png  used on input line 10.
+Package pdftex.def Info: Imagenes/medicion_fo.png  used on input line 311.
 (pdftex.def)             Requested size: 226.48395pt x 141.51451pt.
+[12 <./Imagenes/montecarlo.png> <./Imagenes/pcb1.jpeg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/medicion_fo2.png, id=260, 542.77782pt x 305.64188pt>
+<Imagenes/medicion_fo2.png, id=262, 542.77782pt x 305.64188pt>
 File: Imagenes/medicion_fo2.png Graphic file (type png)
 <use Imagenes/medicion_fo2.png>
-Package pdftex.def Info: Imagenes/medicion_fo2.png  used on input line 32.
+Package pdftex.def Info: Imagenes/medicion_fo2.png  used on input line 332.
 (pdftex.def)             Requested size: 226.48395pt x 127.53389pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -906,16 +913,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13 <./Imagenes/pcb2.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 82.
+(hyperref)                removing `math shift' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 82.
+(hyperref)                removing `math shift' on input line 382.
 
 <Imagenes/medicion_bw.png, id=270, 798.73407pt x 371.88937pt>
 File: Imagenes/medicion_bw.png Graphic file (type png)
 <use Imagenes/medicion_bw.png>
-Package pdftex.def Info: Imagenes/medicion_bw.png  used on input line 89.
+Package pdftex.def Info: Imagenes/medicion_bw.png  used on input line 389.
 (pdftex.def)             Requested size: 226.48395pt x 105.45049pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -923,75 +930,83 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [14 <./Imagenes/medicion_fo.png> <./Imagenes/medicion_fo2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 115.
+(hyperref)                removing `math shift' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 115.
+(hyperref)                removing `subscript' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 115.
+(hyperref)                removing `math shift' on input line 417.
 
 <Imagenes/medicion_rp.png, id=285, 533.74406pt x 358.33875pt>
 File: Imagenes/medicion_rp.png Graphic file (type png)
 <use Imagenes/medicion_rp.png>
-Package pdftex.def Info: Imagenes/medicion_rp.png  used on input line 121.
+Package pdftex.def Info: Imagenes/medicion_rp.png  used on input line 423.
 (pdftex.def)             Requested size: 362.37569pt x 243.29532pt.
 [15 <./Imagenes/medicion_bw.png> <./Imagenes/medicion_rp.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `math shift' on input line 449.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 148.
+(hyperref)                removing `subscript' on input line 449.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `math shift' on input line 449.
 
-<Imagenes/medicion_zin.png, id=295, 758.835pt x 410.2828pt>
-File: Imagenes/medicion_zin.png Graphic file (type png)
-<use Imagenes/medicion_zin.png>
-Package pdftex.def Info: Imagenes/medicion_zin.png  used on input line 154.
+<Imagenes/medicion_zin1.png, id=296, 227.6505pt x 183.68625pt>
+File: Imagenes/medicion_zin1.png Graphic file (type png)
+<use Imagenes/medicion_zin1.png>
+Package pdftex.def Info: Imagenes/medicion_zin1.png  used on input line 456.
+(pdftex.def)             Requested size: 362.37569pt x 292.42407pt.
+<Imagenes/medicion_zin2.png, id=297, 758.835pt x 410.2828pt>
+File: Imagenes/medicion_zin2.png Graphic file (type png)
+<use Imagenes/medicion_zin2.png>
+Package pdftex.def Info: Imagenes/medicion_zin2.png  used on input line 463.
 (pdftex.def)             Requested size: 362.37569pt x 195.93184pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 161.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 161.
+(hyperref)                removing `math shift' on input line 469.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 161.
+(hyperref)                removing `subscript' on input line 469.
 
 
-LaTeX Warning: Reference `fig: de la medicion de la impedancia de salida' on page 16 undefined on input line 163.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 469.
 
-<Imagenes/medicion_zout1.png, id=296, 532.99126pt x 290.58563pt>
+
+LaTeX Warning: Reference `fig: de la medicion de la impedancia de salida' on page 16 undefined on input line 471.
+
+<Imagenes/medicion_zout1.png, id=298, 532.99126pt x 290.58563pt>
 File: Imagenes/medicion_zout1.png Graphic file (type png)
 <use Imagenes/medicion_zout1.png>
-Package pdftex.def Info: Imagenes/medicion_zout1.png  used on input line 167.
+Package pdftex.def Info: Imagenes/medicion_zout1.png  used on input line 476.
 (pdftex.def)             Requested size: 362.37569pt x 197.57344pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/medicion_zout2.png, id=297, 499.8675pt x 287.57437pt>
+<Imagenes/medicion_zout2.png, id=299, 499.8675pt x 287.57437pt>
 File: Imagenes/medicion_zout2.png Graphic file (type png)
 <use Imagenes/medicion_zout2.png>
-Package pdftex.def Info: Imagenes/medicion_zout2.png  used on input line 174.
+Package pdftex.def Info: Imagenes/medicion_zout2.png  used on input line 484.
 (pdftex.def)             Requested size: 362.37569pt x 208.48389pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [16 <./Imagenes/medicion_zin.png>] (conclusiones.tex) [17 <./Imagenes/medicion_zout1.png> <./Imagenes/medicion_zout2.png>]
+) [16 <./Imagenes/medicion_zin1.png>] (conclusiones.tex) [17 <./Imagenes/medicion_zin2.png> <./Imagenes/medicion_zout1.png>]
 
-LaTeX Warning: Empty bibliography on input line 58.
+LaTeX Warning: Empty bibliography on input line 54.
 
-(c:\Users\cleme\OneDrive\Documentos\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.aux
+[18 <./Imagenes/medicion_zout2.png>] (c:\Users\cleme\OneDrive\Documentos\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.aux
 LaTeX Info: Redefining \sptext on input line 15.
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
@@ -1005,23 +1020,23 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 5ECDFAB0CE21DE97862E5767E64C860A;2130.
+(rerunfilecheck)             Checksum: 1217AE08BF4263D86AE23ECEBF3CA855;2194.
 Package logreq Info: Writing requests to 'informe.run.xml'.
 \openout1 = `informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24318 strings out of 474486
- 427216 string characters out of 5743755
+ 24298 strings out of 474486
+ 427161 string characters out of 5743755
  1939542 words of memory out of 5000000
- 46196 multiletter control sequences out of 15000+600000
- 566604 words of font info for 69 fonts, out of 8000000 for 9000
+ 46185 multiletter control sequences out of 15000+600000
+ 562257 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,81p,1958b,1888s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\cleme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\cleme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on c:\Users\cleme\OneDrive\Documentos\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.pdf (18 pages, 711510 bytes).
+ <C:\Users\cleme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\cleme\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleme/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on c:\Users\cleme\OneDrive\Documentos\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.pdf (19 pages, 696877 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,6 +8,7 @@ la cual la reactancia inductiva y la reactancia capacitiva son iguales, por lo q
     \centering
     \includegraphics[width=0.5\textwidth]{Imagenes/circuito_resonante.png}
     \caption{Circuito resonante LC}
+    \label{fig:circuito_resonante}
 \end{figure}
 
 La frecuencia de resonancia o frecuencia central ($f_0$) se calcula mediante la siguiente ecuación:
@@ -16,7 +17,7 @@ La frecuencia de resonancia o frecuencia central ($f_0$) se calcula mediante la 
     f_0 = \frac{1}{2\pi \sqrt{LC}}
 \end{equation}
 
-Podemos definir el factor de calidad cuando el circuito esta cargado ($Q_c$) y cuando el circuito esta descargado ($Q_d$). 
+A partir de la $f_0$ podemos definir el factor de calidad cuando el circuito esta cargado ($Q_c$) y cuando el circuito esta descargado ($Q_d$). 
 Se pueden calcular mediante las siguientes ecuaciones:
 
 \begin{equation}
@@ -27,14 +28,24 @@ Se pueden calcular mediante las siguientes ecuaciones:
     Q_d = \frac{R_P}{X_L}
 \end{equation}
 
-Donde $R_T$ es la resistencia total, $R_P$ es la resistencia paralelo, $X_L$ es la reactancia inductiva y $BW$ es el ancho de banda. $R_T$ define el factor de calidad del circuito 
-cuando esta cargado, y $R_P$ cuando esta descargado. Y $R_T$ se calcula mediante la siguiente ecuación:
+Donde: 
+
+\begin{itemize}
+    \item $R_T$ es la resistencia total
+    \item $R_P$ es la resistencia paralelo
+    \item $X_L$ es la reactancia inductiva
+    \item $BW$ es el ancho de banda
+\end{itemize}
+
+$R_T$ define el factor de calidad del circuito cuando esta cargado, y $R_P$ cuando esta descargado.
+Y $R_T$ se calcula mediante la siguiente ecuación:
 
 % RT =  RP // RL // Rg
 \begin{equation}
     R_T = R_P \parallel R_L \parallel R_g
 \end{equation}
 
+%Modificaremos el circuito de la figura 1, para obtener el circuito de acoplamiento interetapas (Figura 2). 
 Modificaremos el circuito de la figura 1, para obtener el circuito de acoplamiento interetapas (Figura 2). 
 
 \begin{figure}[h]
@@ -89,8 +100,15 @@ Donde nos queda una resistencia total de:
     R_T = R_g' \parallel R_L' \parallel R_P
 \end{equation}
 
-Donde Rg' es la resistencia del generador reflejada, Rl' es la resistencia de carga reflejada y Rp es la resistencia paralelo.
-Finalmente nos quedara:
+Donde:
+
+\begin{itemize}
+    \item $R_g'$ es la resistencia del generador reflejada
+    \item $R_L'$ es la resistencia de carga reflejada
+    \item $R_P$ es la resistencia paralelo
+\end{itemize}
+
+Podemos realizar la siguiente asignacion de valores, donde seguiremos cumpliendo la condicion de la ecuacion 7:
 
 % RT = Rg' // (RL' // RP)
 \begin{equation}
