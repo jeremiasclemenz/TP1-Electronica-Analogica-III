@@ -10,3 +10,8 @@
 \contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{12}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Mediciones}{13}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Medicion de $f_o$}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Medicion de $BW$}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Medicion de $R_p$}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Medicion de $Z_{in}$}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Medicion de $Z_{out}$}{16}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Conclusiones}{17}{section.5}%
