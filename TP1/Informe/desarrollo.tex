@@ -24,9 +24,9 @@ El primer paso para construir el circuito resontate es realizar los calculos del
 Donde:
 
 \begin{itemize}
-    \item $D$ es el diametro externo del inductor
-    \item $N_s$ es el numero de espiras por unidad de longitud
-    \item $k$ es la constante de Nagaoka
+    \item $D$ es el diametro externo del inductor en cm 
+    \item $N_s$ es el numero de espiras por unidad de longitud en espiras/cm
+    \item $k$ es la constante que depende de la relacion de longitud con diametro l/D
 \end{itemize}
 
 Para comenzar fijaremos parametros que podamos ajustarlos o determinarlos. Elegimos los siguientes valores:
@@ -458,23 +458,56 @@ y la \ref{fig: de la medicion de la impedancia de entrada 2}
     \label{fig: de la medicion de la impedancia de entrada}
 \end{figure}
 
+\newpage
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zin2.png}
-    \caption{Medicion de $Z_{in}$}
+    \caption{Medicion de $V_{in}$}
     \label{fig: de la medicion de la impedancia de entrada 2}
 \end{figure}
 
+Con estas dos mediciones podemos calcular la impedancia de entrada. Las mediciones son las siguientes:
+% Tabla con mediciones de Vg y Vin
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0} 
+    \textbf{Medicion} & \textbf{Valor} \\ \hline
+    $V_g$            & 2.3  V         \\ \hline
+    $V_{in}$         & 0.7 V         \\ \hline
+    \end{tabular}
+\end{table}
+
+Debido a que medimos en resonancia, la reactancia inductiva y capacitiva se anulan. Por lo tanto podemos plantear el divisor resistivo:
+
+\begin{equation}
+    V_{in} = V_g \cdot \frac{Z_{in}}{Z_{in} + R_{g}}
+\end{equation}
+
+Despejando $Z_{in}$ obtenemos:
+
+\begin{equation}
+    Z_{in} = R_g \cdot \frac{ V_{in}}{V_g - V_{in}}
+\end{equation}
+
+Remplazando los valores obtenemos:
+
+\begin{equation}
+    Z_{in} = 22\; \Omega
+\end{equation}
 
 \subsubsection{Medicion de $Z_{out}$}
 
-Para la medicion de la impedancia de salida, se utiliza el esquema de la figura \ref{fig: de la medicion de la impedancia de salida}:
+Para la medicion de la impedancia de salida, se utiliza el esquema de la figura \ref{fig: Primer esquema de la medicion de la impedancia de salida} y la figura
+\ref{fig: Segundo esquema de la medicion de la impedancia de salida}.
 
 %
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zout1.png}
-    \caption{Medicion de $Z_{out}$}
+    \caption{Medicion de $V_{out}$ sin carga}
     \label{fig: Primer esquema de la medicion de la impedancia de salida}
 \end{figure}
 
@@ -482,6 +515,42 @@ Para la medicion de la impedancia de salida, se utiliza el esquema de la figura 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Imagenes/medicion_zout2.png}
-    \caption{Medicion de $Z_{out}$}
+    \caption{Medicion de $V_{out}$ con carga}
     \label{fig: Segundo esquema de la medicion de la impedancia de salida}
 \end{figure}
+
+
+
+
+Realizando estas dos mediciones podemos calcular la impedancia de salida. Las mediciones son las siguientes:
+
+% Tabla con mediciones de Vout sin carga y con carga
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0} 
+    \textbf{Medicion} & \textbf{Valor} \\ \hline
+    $V_{out}$ sin carga            & 1.05  V         \\ \hline
+    $V_{out}$ o $V_{L}$ con carga         & 2.4 V         \\ \hline
+    \end{tabular}
+\end{table}
+
+Planteando el divisor resistivo:
+
+\begin{equation}
+    V_{L} = V_{out} \cdot \frac{Z_{L}}{Z_{out} + Z_L}
+\end{equation}
+
+Despejando $Z_{out}$ obtenemos:
+
+\begin{equation}
+    Z_{out} = Z_L \cdot \frac{V_{out} - V_L}{V_L}
+\end{equation}
+
+Remplazando los valores obtenemos:
+
+\begin{equation}
+    Z_{out} = 1285\; \Omega
+\end{equation}
+

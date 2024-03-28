@@ -1,20 +1,21 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Circuito resonante LC}}{5}{figure.caption.6}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Circuito de acoplamiento interetapas LC modificado}}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Auto transformador}}{6}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Esquema de relación de transformación}}{7}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Circuito reflejado}}{7}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Curva de Nagaoka K}}{9}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Circuito simulado en LTSpice}}{11}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Respuesta en frecuencia del circuito simulado}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Analisis de montecarlo}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces PCB montada}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces PCB montada}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Medicion de $f_o$}}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Medicion de $f_o2$}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Medicion de $BW$}}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Medicion de $R_p$}}{15}{figure.caption.21}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Medicion de $V_g$}}{16}{figure.caption.22}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Medicion de $Z_{in}$}}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Medicion de $Z_{out}$}}{17}{figure.caption.24}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Medicion de $Z_{out}$}}{18}{figure.caption.25}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Circuito resonante RLC\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Circuito de acoplamiento interetapas RLC modificado\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Auto transformador\relax }}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Esquema de relación de transformación\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Circuito reflejado\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Circuitos equivalentes\relax }}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Curva de Nagaoka K\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Circuito simulado en LTSpice\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Respuesta en frecuencia del circuito simulado\relax }}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Analisis de montecarlo\relax }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces PCB montada\relax }}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces PCB montada\relax }}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Medicion de $f_o$\relax }}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Medicion de $f_o2$\relax }}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Medicion de $BW$\relax }}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Medicion de $R_p$\relax }}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Medicion de $V_g$\relax }}{17}{figure.caption.23}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Medicion de $V_{in}$\relax }}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Medicion de $V_{out}$ sin carga\relax }}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Medicion de $V_{out}$ con carga\relax }}{19}{figure.caption.27}%

@@ -1,17 +1,19 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
 \contentsline {section}{\numberline {2}Marco teórico}{5}{section.2}%
-\contentsline {section}{\numberline {3}Desarrollo}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Rerequerimientos}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Diseño}{8}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Calculo de resistencias}{9}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Calculo del capacitor}{10}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Simulacion}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{12}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Mediciones}{13}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{13}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Medicion de $BW$}{15}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Medicion de $R_p$}{15}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}Medicion de $Z_{in}$}{16}{subsubsection.3.5.4}%
-\contentsline {subsubsection}{\numberline {3.5.5}Medicion de $Z_{out}$}{16}{subsubsection.3.5.5}%
-\contentsline {section}{\numberline {4}Conclusiones}{17}{section.4}%
+\contentsline {subsection}{\numberline {2.1}Circuito resonante RLC}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Condición para la reflexion de impedancias}{8}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Desarrollo}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Rerequerimientos}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Diseño}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Calculo de resistencias}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Calculo del capacitor}{11}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Simulacion}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{13}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Mediciones}{14}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{14}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Medicion de $BW$}{16}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Medicion de $R_p$}{16}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Medicion de $Z_{in}$}{17}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Medicion de $Z_{out}$}{18}{subsubsection.3.5.5}%
+\contentsline {section}{\numberline {4}Conclusiones}{20}{section.4}%

@@ -1,22 +1,32 @@
 \section{Marco teórico}
 
+\subsection{Circuito resonante RLC}
 
-Un circuito resonante esta compuesto por una bobina y un capacitor (Figura 1), en el cual se produce una resonancia en una frecuencia determinada. La frecuencia de resonancia es aquella en 
+Un circuito resonante esta compuesto por una resitencia, bobina y un capacitor (Figura 1), en el cual se produce una resonancia en una frecuencia determinada. La frecuencia de resonancia es aquella en 
 la cual la reactancia inductiva y la reactancia capacitiva son iguales, por lo que la impedancia del circuito es puramente resistiva. 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{Imagenes/circuito_resonante.png}
-    \caption{Circuito resonante LC}
+    \caption{Circuito resonante RLC}
     \label{fig:circuito_resonante}
 \end{figure}
 
-La frecuencia de resonancia o frecuencia central ($f_0$) se calcula mediante la siguiente ecuación:
+La frecuencia de resonancia o frecuencia central ($f_0$) caracteriza al circuito resonante, y se calcula mediante la siguiente ecuación:
 
 \begin{equation}
     f_0 = \frac{1}{2\pi \sqrt{LC}}
 \end{equation}
 
+Donde: 
+% items
+\begin{itemize}
+    \item $f_0$ es la frecuencia central
+    \item $L$ es la inductancia
+    \item $C$ es la capacidad
+\end{itemize}
+
+En la ultima ecuacion podemos observar que la frecuencia central depende de la inductancia L  y la capacidad C. 
 A partir de la $f_0$ podemos definir el factor de calidad cuando el circuito esta cargado ($Q_c$) y cuando el circuito esta descargado ($Q_d$). 
 Se pueden calcular mediante las siguientes ecuaciones:
 
@@ -37,21 +47,30 @@ Donde:
     \item $BW$ es el ancho de banda
 \end{itemize}
 
-$R_T$ define el factor de calidad del circuito cuando esta cargado, y $R_P$ cuando esta descargado.
-Y $R_T$ se calcula mediante la siguiente ecuación:
+
+La variable $R_T$ es la resistencia total del circuito, la cual determinara el factor de calidad cargado del circuito. 
+El inductor real tendra perdidas parasitas, esta resistencia se encuentra en paralelo con el inductor
+de la figura 1 y se denomina resistencia en paralelo ($R_P$). La resistencia total del circuito $R_T$ se calcula mediante la siguiente ecuación:
 
 % RT =  RP // RL // Rg
 \begin{equation}
     R_T = R_P \parallel R_L \parallel R_g
 \end{equation}
 
-%Modificaremos el circuito de la figura 1, para obtener el circuito de acoplamiento interetapas (Figura 2). 
-Modificaremos el circuito de la figura 1, para obtener el circuito de acoplamiento interetapas (Figura 2). 
+Donde:
+\begin{itemize}
+    \item $R_P$ es la resistencia paralelo
+    \item $R_L$ es la resistencia de carga
+    \item $R_g$ es la resistencia del generador
+\end{itemize}
+
+En este trabajo practico se pretende diseñar un circuito resonante a una determinada frecuencia central y ancho de banda. Por lo tanto realizaremos una 
+modificacion el circuito de la figura 1, para obtener el circuito de acoplamiento interetapas (Figura 2). 
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{Imagenes/circuito_acoplamiento2.png}
-    \caption{Circuito de acoplamiento interetapas LC modificado}
+    \caption{Circuito de acoplamiento interetapas RLC modificado}
 \end{figure}
 
 El circuito de la figura 2 tiene la misma frecuencia central que el circuito de la figura 1. Si calculamos la capacidad total, obtendremos la misma que la del circuito de la figura 1.
@@ -60,7 +79,8 @@ El circuito de la figura 2 tiene la misma frecuencia central que el circuito de 
     C_T = \frac{C1 \cdot C2}{C1 + C2} + \frac{C3 \cdot C4}{C3 + C4} = \frac{C}{2} + \frac{C}{2} 
 \end{equation}
 
-Analizando la salida del circuito de la figura 2, podemos interpretarla como un auto transformador:
+Analizando la salida del circuito de la figura 2, podemos trazar un paralelismo con el autotransformador, donde podemos reflejar las impedancias tanto del 
+generador como de la carga al primario. Y donde cada capacitor o la suma de ellos es el bobinado del autotransformador.
 
 \begin{figure}[h]
     \centering
@@ -79,7 +99,12 @@ Del autotransformador podemos obtener la relación de transformación:
 
 % RL prima = (1 + N2/N1)^2 * RL
 \begin{equation}
-    R_L' = (1 + \frac{X_3}{X_4})^2 \cdot R_L 
+    R_L' = (1 + \frac{C_3}{C_4})^2 \cdot R_L 
+\end{equation}
+
+% Rg prima = (1 + N1/N2)^2 * Rg
+\begin{equation}
+    R_g' = (1 + \frac{C_1}{C_2})^2 \cdot R_g
 \end{equation}
 
 
@@ -108,6 +133,7 @@ Donde:
     \item $R_P$ es la resistencia paralelo
 \end{itemize}
 
+Con el circuito reflejado, las resistencias $R_g'$ y $R_L'$ dependeran de los capacitores $C1$, $C2$, $C3$ y $C4$, lo que nos permitira adaptar las impedancias de entrada y salida del circuito.
 Podemos realizar la siguiente asignacion de valores, donde seguiremos cumpliendo la condicion de la ecuacion 7:
 
 % RT = Rg' // (RL' // RP)
@@ -115,45 +141,81 @@ Podemos realizar la siguiente asignacion de valores, donde seguiremos cumpliendo
     R_T = X_L \cdot Q_c = R_g' \parallel (R_L' \parallel R_P) = 2 R_T \parallel 2 R_T 
 \end{equation}
 
-Retomando el concepto de auto transformador, podemos demostrar que la reflexion de RL y Rg al primario. El procedimiento lo realizaremos solamente con RL, ya que el procedimiento es el mismo para Rg.
-Sabemos que la relacion de transformacion en la figura 3 es:
+Finalmente, luego de este desarrollo nos quedara un sistema de ecuaciones con 4 incognitas, las cuales son $C1$, $C2$, $C3$ y $C4$, que nos serviran para el diseño del circuito de acoplamiento.
 
-\begin{equation}
-    n = \frac{X_3+X_4}{X_4} = 1 + \frac{X_3}{X_4} = \frac{V_{34}}{V_4} = \frac{I_4}{I_{34}}
-\end{equation}
 
-Si elevamos al cuadrado la ecuacion 9, obtenemos:
-
-% n^2 = (1 + X3/X4)^2 = V34/V4 * I4/I34
-\begin{equation}
-    n^2 = (1 + \frac{X_3}{X_4})^2 = \frac{V_{34}}{V_4} \cdot \frac{I_4}{I_{34}} = R_L' / R_L
-\end{equation}
-
-Despejando $R_L'$, obtenemos:
-
-% RL' = n^2 * RL
-\begin{equation}
-    R_L' = n^2 \cdot R_L = (1 + \frac{X_3}{X_4})^2 \cdot R_L = (1 + \frac{C_3}{C_4})^2 \cdot R_L
-\end{equation}
-
-Si realizamos el mismo procedimiento con Rg, obtenemos:
-
-% Rg' = n^2 * Rg
-\begin{equation}
-    R_g' = n^2 \cdot R_g = (1 + \frac{X_1}{X_2})^2 \cdot R_g = (1 + \frac{C_1}{C_2})^2 \cdot R_g
-\end{equation}
-
-Finalmente nos quedan 4 ecuaciones con 4 incognitas, las cuales son $C_1$, $C_2$, $C_3$ y $C_4$.
-% 4 ecuaciones en una misma llave para que quede mas prolijo y se vea claras las ecuaciones
 \begin{equation}
     \begin{cases}
-        R_L' = (1 + \frac{C_3}{C_4})^2 \cdot R_L \\
-        R_g' = (1 + \frac{C_1}{C_2})^2 \cdot R_g \\
-        \frac{ C_1 \cdot C_2}{C_1 + C_2} = \frac{C}{2} \\
-        \frac{ C_3 \cdot C_4}{C_3 + C_4} = \frac{C}{2} \\
+        R_L' = \left(1 + \frac{C_3}{C_4}\right)^2 \cdot R_L \vphantom{\frac{C_1 \cdot C_2}{C_1 + C_2}} \\
+        \\
+        R_g' = \left(1 + \frac{C_1}{C_2}\right)^2 \cdot R_g \vphantom{\frac{C_1 \cdot C_2}{C_1 + C_2}} \\
+        \\
+        \frac{C_1 \cdot C_2}{C_1 + C_2} = \frac{C}{2} \\
+        \\
+        \frac{C_3 \cdot C_4}{C_3 + C_4} = \frac{C}{2}
     \end{cases}
 \end{equation}
 
-Con estas ecuaciones podremos comenzar con el calculo para el diseño del circuito de acoplamiento.
+\subsection{Condición para la reflexion de impedancias}
+
+La demostracion de la reflexion de impedancias se parte de un circuito mixto y se lo lleva a otro paralelo. En la siguiente figura se muestran la forma que queremos expresar el circuito.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Imagenes/reflexion_impedancias.png}
+    \caption{Circuitos equivalentes}
+\end{figure}
+
+La impedancia equivalente del circuito mixto se puede expresar como:
+
+\begin{equation}
+    Z_{eq} = X_{C3} + X_{C4} // R 
+\end{equation}
+
+Desarrollando la ecuacion anterior, obtenemos:
+
+\begin{equation}
+    Z_{eq} = \frac{R \cdot (1 + \frac{C4}{C3}) - j \cdot \frac{1}{2 \pi f C3}}{1 + j \cdot R \cdot 2 \pi f C4} 
+\end{equation}
+
+Luego para pasar al modelo equivalente paralelo podremos expresar la impedancia como admitancia para mayor facilidad de calculo:
+
+\begin{equation}
+    Y_{eq} = \frac{1}{Z_{eq}} = \frac{1 + j \cdot R \cdot 2 \pi f C4}{R \cdot (1 + \frac{C4}{C3}) - j \cdot \frac{1}{2 \pi f C3}}
+\end{equation}
+
+Racionalizando la expresión:
+
+\begin{equation}
+    Y_{eq} =  \frac{1}{Z_{eq}} = \frac{1 + j \cdot R \cdot 2 \pi f C4}{R \cdot (1 + \frac{C4}{C3}) - j \cdot \frac{1}{2 \pi f C3}} \cdot \frac{R \cdot (1 + \frac{C4}{C3}) + j \cdot \frac{1}{2 \pi f C3}}{R \cdot (1 + \frac{C4}{C3}) + j \cdot \frac{1}{2 \pi f C3}}
+\end{equation}
+
+Finalmente, obtenemos la expresión de la admitancia equivalente:
+
+\begin{equation}
+    Y_{eq} = \frac{R + j \cdot (2 \pi)^2 \cdot f^2 \cdot C4 \cdot (1 + \frac{C4}{C3})}{R^2 \cdot (1 + \frac{C4}{C3})^2 + \frac{1}{4 \pi^2 f^2 C3^2}}
+\end{equation}
+
+Tomando la parte real de la admitancia para obtener la conductancia equivalente:
+
+\begin{equation}
+    G_{eq}= Re(Y_{eq}) = \frac{R}{R^2 \cdot (1 + \frac{C4}{C3})^2 + \frac{1}{4 \pi^2 f^2 C3^2}}
+\end{equation}
+
+Simplificando e invirtiendo la expresión, obtenemos la $R_{eq}$ que es la resistencia equivalente del circuito paralelo que inicialmente queremos:
+
+\begin{equation}
+    R_{eq} = R \cdot (1 + \frac{C4}{C3})^2 + \frac{1}{R \cdot 4 \pi^2 f^2 C3^2}
+\end{equation}
+
+El segundo termino de la ecuacion 17 hace que no se cumpla la reflexion de impedancias. Para solucionar este problema, se debe cumplir la siguiente condicion:
+
+\begin{equation}
+    R \cdot 4 \pi^2 f^2 C3^2 >> 10 
+\end{equation}
+
+El parametro que podremos variar para cumplir la condicion de la ecuacion 18 es la capacidad de C3. 
+
+
 
 
