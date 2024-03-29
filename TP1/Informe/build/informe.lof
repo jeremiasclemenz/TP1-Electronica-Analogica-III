@@ -5,17 +5,17 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Esquema de relación de transformación\relax }}{7}{figure.caption.9}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Circuito reflejado\relax }}{7}{figure.caption.10}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Circuitos equivalentes\relax }}{8}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Curva de Nagaoka K\relax }}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Circuito simulado en LTSpice\relax }}{12}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Respuesta en frecuencia del circuito simulado\relax }}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Analisis de montecarlo\relax }}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces PCB montada\relax }}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {12}{\ignorespaces PCB montada\relax }}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Medicion de $f_o$\relax }}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Medicion de $f_o2$\relax }}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Medicion de $BW$\relax }}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Medicion de $R_p$\relax }}{16}{figure.caption.22}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Medicion de $V_g$\relax }}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Medicion de $V_{in}$\relax }}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Curva de Nagaoka\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Circuito simulado en LTSpice\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Respuesta en frecuencia del circuito simulado\relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Analisis de montecarlo\relax }}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces PCB montada\relax }}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces PCB montada\relax }}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Medicion de $f_{o1}$\relax }}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Medicion de $f_o2$\relax }}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Medicion de $BW$\relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Medicion de $R_p$\relax }}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Medicion de $V_g$\relax }}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Medicion de $V_{in}$\relax }}{19}{figure.caption.24}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Medicion de $V_{out}$ sin carga\relax }}{19}{figure.caption.26}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Medicion de $V_{out}$ con carga\relax }}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Medicion de $V_{out}$ con carga\relax }}{20}{figure.caption.27}%
