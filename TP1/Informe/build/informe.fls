@@ -1064,13 +1064,6 @@ INPUT .\Imagenes\medicion_fo2.png
 INPUT .\Imagenes\medicion_fo2.png
 INPUT .\Imagenes\medicion_fo2.png
 INPUT .\Imagenes\medicion_fo2.png
-INPUT .\Imagenes\medicion_bw.png
-INPUT .\Imagenes\medicion_bw.png
-INPUT Imagenes\medicion_bw.png
-INPUT .\Imagenes\medicion_bw.png
-INPUT .\Imagenes\medicion_bw.png
-INPUT .\Imagenes\medicion_bw.png
-INPUT .\Imagenes\medicion_bw.png
 INPUT .\Imagenes\medicion_rp.png
 INPUT .\Imagenes\medicion_rp.png
 INPUT Imagenes\medicion_rp.png
@@ -1078,6 +1071,13 @@ INPUT .\Imagenes\medicion_rp.png
 INPUT .\Imagenes\medicion_rp.png
 INPUT .\Imagenes\medicion_rp.png
 INPUT .\Imagenes\medicion_rp.png
+INPUT .\Imagenes\medicion_bw.png
+INPUT .\Imagenes\medicion_bw.png
+INPUT Imagenes\medicion_bw.png
+INPUT .\Imagenes\medicion_bw.png
+INPUT .\Imagenes\medicion_bw.png
+INPUT .\Imagenes\medicion_bw.png
+INPUT .\Imagenes\medicion_bw.png
 INPUT .\Imagenes\medicion_zin1.png
 INPUT .\Imagenes\medicion_zin1.png
 INPUT Imagenes\medicion_zin1.png
@@ -1106,6 +1106,10 @@ INPUT .\Imagenes\medicion_zout2.png
 INPUT .\Imagenes\medicion_zout2.png
 INPUT .\Imagenes\medicion_zout2.png
 INPUT .\Imagenes\medicion_zout2.png
+INPUT .\resultados.tex
+INPUT resultados.tex
+INPUT .\resultados.tex
+INPUT resultados.tex
 INPUT .\conclusiones.tex
 INPUT conclusiones.tex
 INPUT .\conclusiones.tex
@@ -1127,6 +1131,8 @@ INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfont
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\Jeremias\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

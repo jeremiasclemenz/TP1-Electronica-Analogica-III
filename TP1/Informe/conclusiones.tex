@@ -1,6 +1,40 @@
 \section{Conclusiones}
 
-En el trabajo practico N° 1 se realizara el estudio de un circuito de acoplamiento interetapas. Los circuitos interetapa se utilizan en sistemas 
-de comunicacion para adaptar impedancia y sintonizar en una frecuencia determinada, permitiendo maxima transferencia de energia entre etapas.
-En el practico construiremos el circuito resonante, armando la bobina y utilizando capacitores comerciales, donde tendremos que cumplir valores de frecuencia central, ancho 
-de banda, factor de calidad e impedancia de entrada y salida.
+En este trabajo se diseñó y construyó un circuito resonante, aplicando conceptos abordados en clase. El resultado de los cálculos y las mediciones no son 
+exactamente iguales debido a múltiples factores.
+
+
+El principal inconveniente a la hora de realizar el armado del circuito es el inductor. Para empezar, a la hora de comprar cobre para realizar el inductor,
+no sabemos si el cobre es puro o no, lo que afecta a la resistencia del inductor. Por otro lado, al bobinar a mano el inductor, no tenemos la certeza de que 
+la separación entre espiras sea la misma en todo el inductor, y además el cobre al tener un grosor de $2.1 \, \text{mm}$, no se puede bobinar de manera perfecta ya que 
+este tiende a deformarse, lo que afecta a la inductancia del inductor. Al cambiar la inductancia, cambia la frecuencia de resonancia, lo que hace que la adaptación
+de impedancias necesite otros valores de capacitores. Otro problema que tuve fue que al realizar las mediciones en dos días distintos,
+los valores de las mediciones no eran iguales, lo que me llevó a tener que realizar las mediciones nuevamente. Esto se debió a que al transportar el circuito, lo modifiqué
+levemente. También puede deberse a que utilicé un osciloscopio distinto, lo que puede afectar a las mediciones.
+
+
+Observando la tabla de resultados, podemos ver que en $R_p$ el error es del $77.6\%$. Los cálculos realizados de la resistencia de pérdidas son de $34.3 \, \text{k}\Omega$, mientras
+nosotros medimos $7.7 \, \text{k}\Omega$. Esto provocará que la potencia transferida sea menor debido a que el circuito no se encuentre adaptado. Esto se refleja en las 
+mediciones de $Z_{\text{in}}$ y $Z_{\text{out}}$, donde los valores medidos no son iguales a los valores de diseño. En $Z_{\text{in}}$ el error es del $56\%$ y en $Z_{\text{out}}$ el error es del $28.5\%$.
+
+
+Los capacitores utilizados son capacitores de cerámica, que cuentan con una tolerancia del $-20\%$ al $80\%$. Esto afecta a la frecuencia de resonancia y además a la adaptación
+de impedancias. 
+
+
+Otro problema que afecta radicalmente las mediciones son los instrumentos de medición. En este caso, aunque utilizamos conectores BNC,
+se agrega la capacidad parásita de los cables, del mismo osciloscopio y del generador de señales. 
+
+
+
+La solución al problema del trabajo artesanal del inductor es utilizar un bobinador de inductores, que nos permita bobinar inductores de manera más precisa. Utilizar calibre 
+para ajustar, si es necesario, la distancia entre espiras. Esto nos permitirá tener una inductancia más precisa y una resistencia de pérdidas más cercana a la calculada.
+Otra solución es utilizar inductores comerciales, que cuentan con una inductancia y resistencia de pérdidas específica. Además, para mejorar la adaptación de impedancias
+podrían utilizarse capacitores de poliéster de $1\%$ de tolerancia, aunque encarecería el trabajo práctico. Y la última mejora podría ser utilizar un osciloscopio 
+de alta frecuencia y un generador de señales de alta frecuencia, para disminuir la capacidad parásita de los cables y de los instrumentos de medición. Además, para medir 
+la adaptación de impedancias, podría utilizarse un roímetro, que nos permitiría medir la potencia transferida y así saber si el circuito se encuentra adaptado o no.
+
+
+
+Finalmente, considerando los problemas anteriormente mencionados y las soluciones propuestas, el trabajo nos permite tener un mayor entendimiento de los circuitos resonantes,
+y además poder observar el efecto de las altas frecuencias en los circuitos.

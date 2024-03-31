@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
 \contentsline {section}{\numberline {2}Marco teórico}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Circuito resonante RLC}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Condición para la reflexion de impedancias}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Condición para la reflexión de impedancias}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Desarrollo}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Rerequerimientos}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Diseño del inductor}{9}{subsection.3.2}%
@@ -12,8 +12,10 @@
 \contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{14}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Mediciones}{15}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Medicion de $BW$}{17}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Medicion de $R_p$}{17}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}Medicion de $Z_{in}$}{18}{subsubsection.3.5.4}%
-\contentsline {subsubsection}{\numberline {3.5.5}Medicion de $Z_{out}$}{19}{subsubsection.3.5.5}%
-\contentsline {section}{\numberline {4}Conclusiones}{21}{section.4}%
+\contentsline {subsubsection}{\numberline {3.5.2}Medición de $R_p$}{17}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Medición de $BW$}{18}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Medición de $Z_{in}$}{18}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Medición de $Z_{out}$}{20}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {3.5.6}Factor de calidad}{21}{subsubsection.3.5.6}%
+\contentsline {section}{\numberline {4}Resultados finales}{22}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{23}{section.5}%
