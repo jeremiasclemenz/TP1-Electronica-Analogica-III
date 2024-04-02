@@ -4,18 +4,18 @@
 \contentsline {subsection}{\numberline {2.1}Circuito resonante RLC}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Condición para la reflexión de impedancias}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Desarrollo}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Rerequerimientos}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Requerimientos}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Diseño del inductor}{9}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Calculo de resistencias}{10}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Calculo de los capacitores}{11}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Simulacion}{13}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Seleccion de componentes y armado}{14}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Mediciones}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{15}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}Cálculo de resistencias}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Cálculo de los capacitores}{12}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Simulación}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Selección de componentes y armado}{14}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Mediciones}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Medicion de $f_o$}{16}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Medición de $R_p$}{17}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}Medición de $BW$}{18}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}Medición de $Z_{in}$}{18}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.4}Medición de $Z_{in}$}{19}{subsubsection.3.5.4}%
 \contentsline {subsubsection}{\numberline {3.5.5}Medición de $Z_{out}$}{20}{subsubsection.3.5.5}%
 \contentsline {subsubsection}{\numberline {3.5.6}Factor de calidad}{21}{subsubsection.3.5.6}%
-\contentsline {section}{\numberline {4}Resultados finales}{22}{section.4}%
-\contentsline {section}{\numberline {5}Conclusiones}{23}{section.5}%
+\contentsline {section}{\numberline {4}Resultados finales}{23}{section.4}%
+\contentsline {section}{\numberline {5}Conclusiones}{24}{section.5}%

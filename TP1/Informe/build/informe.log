@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.16)  31 MAR 2024 02:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.16)  2 APR 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -891,11 +891,7 @@ File: Imagenes/pcb2.jpeg Graphic file (type jpg)
 <use Imagenes/pcb2.jpeg>
 Package pdftex.def Info: Imagenes/pcb2.jpeg  used on input line 324.
 (pdftex.def)             Requested size: 317.07614pt x 422.76984pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14 <./Imagenes/montecarlo.png> <./Imagenes/pcb1.jpeg>]
+ [14 <./Imagenes/montecarlo.png> <./Imagenes/pcb1.jpeg>] [15 <./Imagenes/pcb2.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 348.
@@ -908,18 +904,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 348.
 
-<Imagenes/medicion_fo.png, id=307, 405.01312pt x 201.75375pt>
+<Imagenes/medicion_fo.png, id=311, 405.01312pt x 201.75375pt>
 File: Imagenes/medicion_fo.png Graphic file (type png)
 <use Imagenes/medicion_fo.png>
 Package pdftex.def Info: Imagenes/medicion_fo.png  used on input line 354.
 (pdftex.def)             Requested size: 226.48395pt x 112.82431pt.
-[15 <./Imagenes/pcb2.jpeg>]
 <Imagenes/medicion_fo2.png, id=312, 404.26031pt x 159.59625pt>
 File: Imagenes/medicion_fo2.png Graphic file (type png)
 <use Imagenes/medicion_fo2.png>
 Package pdftex.def Info: Imagenes/medicion_fo2.png  used on input line 375.
 (pdftex.def)             Requested size: 226.48395pt x 89.41467pt.
- [16 <./Imagenes/medicion_fo.png> <./Imagenes/medicion_fo2.png>]
+[16 <./Imagenes/medicion_fo.png> <./Imagenes/medicion_fo2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 435.
@@ -932,7 +927,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 435.
 
-<Imagenes/medicion_rp.png, id=327, 356.83313pt x 185.19188pt>
+<Imagenes/medicion_rp.png, id=322, 356.83313pt x 185.19188pt>
 File: Imagenes/medicion_rp.png Graphic file (type png)
 <use Imagenes/medicion_rp.png>
 Package pdftex.def Info: Imagenes/medicion_rp.png  used on input line 441.
@@ -946,7 +941,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 490.
 
-<Imagenes/medicion_bw.png, id=342, 403.5075pt x 172.39406pt>
+<Imagenes/medicion_bw.png, id=338, 403.5075pt x 172.39406pt>
 File: Imagenes/medicion_bw.png Graphic file (type png)
 <use Imagenes/medicion_bw.png>
 Package pdftex.def Info: Imagenes/medicion_bw.png  used on input line 497.
@@ -963,16 +958,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 532.
 
-<Imagenes/medicion_zin1.png, id=345, 149.8097pt x 111.41624pt>
+<Imagenes/medicion_zin1.png, id=341, 149.8097pt x 111.41624pt>
 File: Imagenes/medicion_zin1.png Graphic file (type png)
 <use Imagenes/medicion_zin1.png>
 Package pdftex.def Info: Imagenes/medicion_zin1.png  used on input line 539.
 (pdftex.def)             Requested size: 226.48395pt x 168.4534pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18 <./Imagenes/medicion_bw.png>]
-<Imagenes/medicion_zin2.png, id=356, 395.22656pt x 176.15813pt>
+[18 <./Imagenes/medicion_bw.png>] [19 <./Imagenes/medicion_zin1.png>]
+<Imagenes/medicion_zin2.png, id=361, 395.22656pt x 176.15813pt>
 File: Imagenes/medicion_zin2.png Graphic file (type png)
 <use Imagenes/medicion_zin2.png>
 Package pdftex.def Info: Imagenes/medicion_zin2.png  used on input line 548.
@@ -990,18 +982,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 588.
 
-<Imagenes/medicion_zout1.png, id=359, 411.03563pt x 211.54031pt>
+<Imagenes/medicion_zout1.png, id=364, 411.03563pt x 211.54031pt>
 File: Imagenes/medicion_zout1.png Graphic file (type png)
 <use Imagenes/medicion_zout1.png>
 Package pdftex.def Info: Imagenes/medicion_zout1.png  used on input line 596.
 (pdftex.def)             Requested size: 362.37569pt x 186.49818pt.
-[19 <./Imagenes/medicion_zin1.png> <./Imagenes/medicion_zin2.png>]
-<Imagenes/medicion_zout2.png, id=370, 408.02437pt x 160.34906pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagenes/medicion_zout2.png, id=365, 408.02437pt x 160.34906pt>
 File: Imagenes/medicion_zout2.png Graphic file (type png)
 <use Imagenes/medicion_zout2.png>
 Package pdftex.def Info: Imagenes/medicion_zout2.png  used on input line 604.
 (pdftex.def)             Requested size: 362.37569pt x 142.4166pt.
- [20 <./Imagenes/medicion_zout1.png> <./Imagenes/medicion_zout2.png>]) [21] (resultados.tex) [22] (conclusiones.tex) [23]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./Imagenes/medicion_zin2.png>]) [21 <./Imagenes/medicion_zout1.png> <./Imagenes/medicion_zout2.png>] [22] (resultados.tex) [23] (conclusiones.tex) [24]
 
 LaTeX Warning: Empty bibliography on input line 57.
 
@@ -1011,23 +1008,23 @@ LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 681EB2A655E24FB1833881A23E261741;3064.
+(rerunfilecheck)             Checksum: A4F4F029C45BA780523D5AC4A5A7B5B2;3066.
 Package logreq Info: Writing requests to 'informe.run.xml'.
 \openout1 = `informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24442 strings out of 476331
- 431545 string characters out of 5786349
- 1866660 words of memory out of 5000000
- 44397 multiletter control sequences out of 15000+600000
- 516821 words of font info for 49 fonts, out of 8000000 for 9000
+ 24446 strings out of 476331
+ 431585 string characters out of 5786349
+ 1865660 words of memory out of 5000000
+ 44399 multiletter control sequences out of 15000+600000
+ 517519 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,77p,1951b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jeremias\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Jeremias\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jeremias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on c:\Users\Jeremias\Documents\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.pdf (24 pages, 1060507 bytes).
+Output written on c:\Users\Jeremias\Documents\GitHub\TP1-Electronica-Analogica-III\TP1\Informe\build\informe.pdf (25 pages, 1062372 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
  271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

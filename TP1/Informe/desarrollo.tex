@@ -1,8 +1,8 @@
 \section{Desarrollo}
 
-\subsection{Rerequerimientos}
+\subsection{Requerimientos}
 
-Para este trabajo practico se nos solicita realizar un circuito resonante que cumpla con las siguientes especificaciones:
+Para este trabajo práctico se nos solicita realizar un circuito resonante que cumpla con las siguientes especificaciones:
 
 \begin{itemize}
     \item Frecuencia de resonancia: $f_0 = 16 MHz$
@@ -14,7 +14,7 @@ Para este trabajo practico se nos solicita realizar un circuito resonante que cu
 
 \subsection{Diseño del inductor}
 
-El primer paso para construir el circuito resontate es realizar los calculos del inductor. Para ello, se utilizara la siguiente formula:
+El primer paso para construir el circuito resonante es realizar los cálculos del inductor. Para ello, se utilizará la siguiente fórmula:
 
 % L = D^3 * Ns^2 k 10^-3 [micro H]
 \begin{equation}
@@ -29,7 +29,7 @@ Donde:
     \item $k$ es la constante que depende de la relacion de longitud con diametro l/D
 \end{itemize}
 
-Para comenzar fijaremos parametros que podamos ajustarlos o determinarlos. Elegimos los siguientes valores:
+Para comenzar, fijaremos parámetros que podamos ajustar o determinar. Elegimos los siguientes valores:
 
 \begin{itemize}
     \item $D =  2.21\; \text{cm}$
@@ -37,9 +37,8 @@ Para comenzar fijaremos parametros que podamos ajustarlos o determinarlos. Elegi
     \item separacion entre espiras: $S = 3\; \text{mm}$
 \end{itemize}
 
-El  \textit{valor del diametro $D$} es el \textit{ diametro interno del inductor $D_o$} mas textit{el diametro del conductor $d$}. El diametro interno del inductor $D_o$ es de 20 mm se eligio por comodidad para el bobinado.
-El cilindro para enrrollar el inductor de diametro 20 mm se obtuvo mediante una impresora 3D.
-
+El \textit{valor del diámetro $D$} es el \textit{diámetro interno del inductor $D_o$} más \textit{el diámetro del conductor $d$}. El diámetro interno del inductor $D_o$ es de 20 mm, se eligió por comodidad para el bobinado.
+El cilindro para enrollar el inductor de diámetro 20 mm se obtuvo mediante una impresora 3D.
 
 Con estos valores, se puede calcular el \textit{numero de espiras por unidad de longitud $N_s$}:
 
@@ -47,27 +46,28 @@ Con estos valores, se puede calcular el \textit{numero de espiras por unidad de 
     N_s = \frac{1}{S + d} = \frac{10}{3 + 2.1 } = 1.96 \approx 2 \; \text{espiras/cm}
 \end{equation}
 
-Para seguir con los calculos necesitaremos seleccionar un valor de \textit{longitud del inductor $l$}. En la planilla de calculo se definieron valores de longitud con un paso de 0.1 cm, desde 1 cm a 6 cm.
-Finalmente seleccionamos:
+Para seguir con los cálculos, necesitaremos seleccionar un valor de \textit{longitud del inductor $l$}. En la planilla de cálculo se definieron valores de longitud con un paso de 0.1 cm, desde 1 cm hasta 6 cm.
+Finalmente, seleccionamos:
 
 % separar unidad de numero 
 \begin{itemize}
     \item $l = 3.8\; \text{cm}$
 \end{itemize}
 
-Calculamos la cantidad de espiras, este valor tiene que ser un numero entero por lo tanto redondeamos:
+Calculamos la cantidad de espiras, este valor tiene que ser un numero entero, por lo tanto redondeamos:
 
 \begin{equation}
     N = N_s \cdot l = 2 \cdot 3.8 \approx 7\; \text{espiras} 
 \end{equation}
 
-Tenemos que tener en cuenta que redondeamos para Ns de 1.96 a 2. Ahora calculamos la \textit{relacion de longitud con diametro}:
+Tenemos que tener en cuenta que redondeamos para Ns de 1.96 a 2. Ahora calculamos la \textit{relacion de longitud con diámetro}:
 
 \begin{equation}
     \frac{l}{D} = \frac{3.8}{2.21} = 1.72
 \end{equation}
 
-Ahora tendremos que calcular la \textit{constante k}, para utilizaremos la formula de Nagaoka. Tambien podemos extraer el valor de la siguiente grafica de la curva de K:
+Ahora tendremos que calcular la \textit{constante k}. Para ello, utilizaremos la fórmula de Nagaoka. También podemos extraer el valor de la siguiente gráfica 
+de la curva de K:
 
 \begin{figure}[H]
     \centering
@@ -75,7 +75,7 @@ Ahora tendremos que calcular la \textit{constante k}, para utilizaremos la formu
     \caption{Curva de Nagaoka}
 \end{figure}
 
-Nosotros utilizaremos la siguiente formula, que es la funcion de la curva de Nagaoka:
+Nosotros utilizaremos la siguiente fórmula, que es la función de la curva de Nagaoka:
 
 % k = K * Pi ^2 * L/D
 \begin{equation}
@@ -102,7 +102,7 @@ Y el factor de Nagaoka:
 \end{equation}
 
 
-Con todos estos parametros calculados, podemos calcular el valor de la inductancia:
+Con todos estos parámetros calculados, podemos determinar el valor de la inductancia utilizando la fórmula correspondiente:
 
 \begin{equation}
     L = D^3 \cdot N_s^2 \cdot k \cdot 10^{-3} = 2.21^3 \cdot (1.96)^2 \cdot 13.5 \cdot 10^{-3} 
@@ -112,9 +112,9 @@ Con todos estos parametros calculados, podemos calcular el valor de la inductanc
     \boxed{L = 0.56\; \mu H}
 \end{equation}
 
-\subsubsection{Calculo de resistencias}
+\subsubsection{Cálculo de resistencias}
 
-Para el calculo de las resistencias necesitaremos calcular el \textit{factor de calidad sin carga $Q_d$}, con la siguiente formula:
+Para el calculo de las resistencias necesitaremos calcular el \textit{factor de calidad sin carga $Q_d$}, con la siguiente fórmula:
 
 \begin{equation}
     Q_d = 8850 \cdot \frac{D \cdot l}{102 \cdot l + 45 \cdot D} \cdot \sqrt{f_0}
@@ -124,7 +124,7 @@ Donde:
 
 \begin{itemize}
     \item $l$ es la longitud del inductor en cm
-    \item $D$ es el diametro del inductor en cm
+    \item $D$ es el diámetro del inductor en cm
     \item $f_0$ es la frecuencia de resonancia en MHz
 \end{itemize}
 
@@ -197,9 +197,9 @@ Y calculando $R_g'$:
 \end{equation}
 
 % subsection de la subsection de diseño
-\subsubsection{Calculo de los capacitores}
+\subsubsection{Cálculo de los capacitores}
 
-Con la \textit{frecuencia de resonancia $f_0 = 16 MHz$} y el valor de la inductancia calculado, podemos calcular el valor de la \textit{capacidad total $C_T$} con la siguiente formula:
+Con la \textit{frecuencia de resonancia $f_0 = 16 , \text{MHz}$} y el valor de la inductancia calculado, podemos determinar el valor de la \textit{capacitancia total $C_T$} con la siguiente fórmula:
 
 \begin{equation}
     C_T = \frac{1}{L \cdot (2 \cdot \pi \cdot f_0)^2} = \frac{1}{0.56 \cdot (2 \cdot \pi \cdot 16 \cdot 10^6)^2} 
@@ -250,9 +250,9 @@ Remplazando los valores obtenemos:
 \end{equation}
 
 \newpage
-\subsection{Simulacion}
+\subsection{Simulación}
 
-Para comprobar el correcto funcionamiento de nuestro circuito, se realizo una simulacion en LTSpice. A continuacion se muestra el circuito simulado:
+Para comprobar el correcto funcionamiento de nuestro circuito, se realizó una simulación en LTSpice. A continuación se muestra el circuito simulado:
 
 \begin{figure}[h]
     \centering
@@ -268,7 +268,7 @@ La respuesta en frecuencia obtenida del circuito simulada es la siguiente:
     \caption{Respuesta en frecuencia del circuito simulado}
 \end{figure}
 
-Se observa que la \textit{frecuencia de resonancia es de $16 MHz$} con una ganancia de $2 dB$. Ademas:
+Se observa que la \textit{frecuencia de resonancia es de $16 , \text{MHz}$} con una ganancia de $2 , \text{dB}$. Además:
 
 \begin{itemize}
     \item frecuencia de corte inferior: $15.2 MHz$
@@ -278,7 +278,7 @@ Se observa que la \textit{frecuencia de resonancia es de $16 MHz$} con una ganan
 \end{itemize}
 
 \newpage
-\subsection{Seleccion de componentes y armado}
+\subsection{Selección de componentes y armado}
 
 El primer paso sera determinar que capacitores utilizaremos para el circuito. Los capacitores seleccionados son:
 
@@ -300,26 +300,26 @@ La capacidad total sera:
     \boxed{C_T = 173.4 \; \text{pF}}
 \end{equation}
 
-El resultado obtenido con los capacitores obtenidos, haciendo un analisis de montecarlo:
+El resultado obtenido con los capacitores obtenidos, haciendo un análisis de Montecarlo, fue el siguiente:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Imagenes/montecarlo.png}
     \caption{Analisis de montecarlo}
 \end{figure}
 
-Vemos que la tolerancia y los capacitores utilizados hace que $f_0$ varie entre $13 MHz$ y $17.2 MHz$.
+Vemos que la tolerancia de los capacitores utilizados provoca que $f_0$ varíe entre $13 , \text{MHz}$ y $17.2 , \text{MHz}$.
 
 
 El inductor y los capacitores montados en la PCB finalmente nos queda:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Imagenes/pcb1.jpeg}
     \caption{PCB montada}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Imagenes/pcb2.jpeg}
     \caption{PCB montada}
@@ -329,7 +329,7 @@ El inductor y los capacitores montados en la PCB finalmente nos queda:
 \newpage
 \subsection{Mediciones}
 
-Para la medicion de los parametros del circuito, se utilizara:
+Para la medición de los parámetros del circuito, se utilizará:
 
 \begin{itemize}
     \item Generador de señales
@@ -338,7 +338,7 @@ Para la medicion de los parametros del circuito, se utilizara:
     \item BNC-T 
 \end{itemize}
 
-El numero de serie de los instrumentos utilizados son:
+Los números de serie de los instrumentos utilizados son:
 
 \begin{itemize}
     \item Generador de señales: GW Instek AFG-2125 (GFA2)
@@ -367,7 +367,7 @@ La medicion $f_o1$:
     \boxed{f_{o1} = 12 MHz}
 \end{equation}
 
-A continuacion mediremos la frecuencia de resonancia $f_{o2}$, para esto se utilizara una resistencia de 1k$\Omega$ y ademas, se agrega el capacitor $C_F$ en paralelo al inductor y los capacitores.
+A continuación, mediremos la frecuencia de resonancia $f_{o2}$, para esto se utilizará una resistencia de 1k$\Omega$ y ademas, se agrega el capacitor $C_F$ en paralelo al inductor y los capacitores.
 El esquema es el siguiente:
 
 \begin{figure}[H]
@@ -378,7 +378,7 @@ El esquema es el siguiente:
 
 Donde el capacitor $C_F$ es de 100pF.
 
-La medicion $f_{o2}$:
+La medición $f_{o2}$:
 
 \begin{equation}
     \boxed{f_o2 = 10.5\; MHz}
@@ -443,8 +443,8 @@ Para la medición de la resistencia de pérdida, se utiliza el esquema de la fig
     \label{fig: de la medición de la resistencia de pérdida}
 \end{figure}
 
-Tenemos que colocar la frecuencia del generador de onda en la frecuencia de resonancia $f_o$, ya que la reactancia inductiva y capacitiva se anulan.
-Por lo tanto, nos quedará la resistencia de test $R_{test} = 1k\Omega$ en serie con la resistencia de pérdida $R_p$. Por lo tanto, realizando el divisor resistivo:
+Tenemos que colocar la frecuencia del generador de onda en la frecuencia de resonancia $f_o$, ya que la reactancia inductiva y capacitiva se anulan en esa frecuencia.
+Por lo tanto, nos quedará la resistencia de test $R_{test} = 1k\Omega$ en serie con la resistencia de pérdida $R_p$. Por lo tanto, al realizar el divisor resistivo:
 
 \begin{equation}
     V_{osciloscopio} = V_{1} \cdot \frac{R_p}{R_p + (R_{test}+ R_g)}
@@ -499,8 +499,8 @@ Para la medición del ancho de banda, se utiliza el esquema de la figura \ref{fi
     \label{fig: de la medición del ancho de banda}
 \end{figure}
 
-La medición del ancho de banda variaremos la frecuencia hasta encontrar el pico máximo de amplitud en la salida, una vez encontrado
-el pico máximo, buscaremos -3 dB de la amplitud máxima. La diferencia entre la frecuencia de corte superior y la inferior nos dará el ancho de banda. 
+La medición del ancho de banda, variaremos la frecuencia hasta encontrar el pico máximo de amplitud en la salida. Una vez encontrado
+el pico máximo, buscaremos el punto donde la amplitud caiga -3 dB de la amplitud máxima. La diferencia entre la frecuencia de corte superior y la inferior nos dará el ancho de banda. 
 Las mediciones son las siguientes:
 
 % tabla con 3 columnas y 4 filas, frecuencia de corte inferior central y corte superior. Amplitud y frecuencia
@@ -526,8 +526,8 @@ El ancho de banda es:
     \boxed{BW = 1.45\; MHz}
 \end{equation}
 
-El valor obtenido es menor al esperado, esto puede ser debido a la capacidad parásita del osciloscopio, cables BNC, soldaduras, etc. Además, es posible
-que debido a la tolerancia de los componentes y la resistencia de pérdida menor a la calculada, el ancho de banda se vea afectado.
+El valor obtenido es menor al esperado. Esto puede ser debido a la capacidad parásita del osciloscopio, cables BNC, soldaduras, etc. Además, es posible
+que debido a la tolerancia de los componentes y a que la resistencia de pérdida es menor a la calculada, el ancho de banda se vea afectado.
 
 \subsubsection{Medición de $Z_{in}$}
 
