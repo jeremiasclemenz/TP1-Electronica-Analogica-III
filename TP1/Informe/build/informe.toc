@@ -19,3 +19,5 @@
 \contentsline {subsubsection}{\numberline {3.5.6}Factor de calidad}{21}{subsubsection.3.5.6}%
 \contentsline {section}{\numberline {4}Resultados finales}{23}{section.4}%
 \contentsline {section}{\numberline {5}Conclusiones}{24}{section.5}%
+\contentsline {section}{\numberline {6}Complemento}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Redes de adaptación L}{25}{subsection.6.1}%
